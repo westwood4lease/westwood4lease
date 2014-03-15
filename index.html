@@ -12,7 +12,7 @@
 			color:#343434;
 		}
 		body{
-			background:url('nice_snow.png');
+			background:url('assets/nice_snow.png');
 			font-family:'Gentium Book Basic';
 		}
 		iframe{
@@ -40,7 +40,21 @@
 		    border-top: medium double #333;
 		    color: #333;
 		    text-align: center;
-		    margin-bottom:50px;
+		}
+		p.contact{
+			text-align:center;
+			margin-top:0px;
+			margin-bottom:35px;
+			margin-top:16px;
+			font-size:18px;
+			line-height: 1.4em;
+		}
+		.flexslider{
+			font-family:Arial, sans-serif;
+		}
+		li img{
+			width:640px;
+			height:414px;
 		}
 
 		@media screen and (max-width: 400px) {
@@ -56,21 +70,43 @@
 		}
 
 	</style>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="assets/jquery.flexslider-min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic|PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="assets/flexslider.css">
 </head>
 <body>
 	<div class="main">
-		<h1>Kelton Apartment</h1>
+		<h1>Westwood Apartments</h1>
 		<hr>
-		<p>Contact: 310-235-2888</p>
-		<p>Email: uclakelton@gmail.com</p>
- 
+		<p class="contact">uclakelton@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;(310)235-2888</p>
+		<div class="flexslider">
+			<ul class="slides">
+				<li><img src="img/1.jpg" /></li>
+				<li><img src="img/2.jpg" /></li>
+				<li><img src="img/3.jpg" /></li>
+				<li><img src="img/4.jpg" /></li>
+				<li><img src="img/5.jpg" /></li>
+				<li><img src="img/6.jpg" /></li>
+				<li><img src="img/7.jpg" /></li>
+				<li><img src="img/8.jpg" /></li>
+			</ul>
+		</div>
+
  		<h3>Apartments Available</h3>
  		<p>Studio 432 s.f. - 1 bath with kitchen plus one garage parking space</p>
- 		<p>Large studio 542 s.f. – good for 2 people with 1 bath and kitchen plus one garage parking space
+ 		<p>Large studio 542 s.f. - good for 2 people with 1 bath and kitchen plus one garage parking space
 2 bedroom 1 bath with a large kitchen at 1,500 s.f.</p>
 	</div>
 	<iframe width="600" height="450" frameborder="0" style="border:0"
 src="https://www.google.com/maps/embed/v1/place?q=612+Kelton+Avenue,+Los+Angeles,+CA,+United+States&key=AIzaSyB0j0_U-HZAod9S01EfIe-6c6Blv3GXWjM"></iframe>
+<script>
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
 </body>
 </html>
