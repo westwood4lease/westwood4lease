@@ -1,8 +1,8 @@
 <!DOCYTPE html>
 <html>
 <head>
-	<title>Westwood Apartment Leasing and Rental | Kelton Avenue</title>
-	<meta name="description" content="Rental Offering for the Westwood Los Angeles Area. Perfect for UCLA students and West LA residents." />
+	<title>612 Kelton Avenue | Westwood Apartment Leasing and Rental</title>
+	<meta name="description" content="Rental Offering for 612 Kelton Avenue" />
 	<meta name="keywords" content="ucla, westwood, leasing, apartment, housing, rent, west la, los angeles" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,height=device-height, user-scalable=no">
 	<style>
@@ -18,18 +18,7 @@
 			background:url('assets/nice_snow.png');
 			font-family:'Gentium Book Basic';
 		}
-		iframe{
-			box-sizing:border-box;
-			-moz-box-sizing:border-box;
-			position:fixed;
-			right:0;
-			top:0;
-			width:50%;
-			height:100%;
-			border-left:1px solid #333 !important;
-		}
 		.main{
-			margin-right:50%;
 			padding: 27px 48px;
 		}
 		h1{
@@ -45,6 +34,10 @@
 			border-bottom: 1px solid black;
 			box-shadow:0px 0px 4px white, 0px 0px 3px black;
 		}
+		h1 a{
+			color:white;
+			text-decoration:none;
+		}
 		hr {
 			font-family:Arial;
 		    padding: 0;
@@ -59,23 +52,40 @@
 			margin-top:12px;
 			font-size:18px;
 			line-height: 1.4em;
+			clear:both;
+			padding-top:30px;
 		}
 		p a{
 			color:#333;
-			
+
 		}
 		.flexslider{
 			font-family:Arial, sans-serif;
-			margin-bottom:30px !important;
-			margin-top:35px !important;
+			margin-bottom:75px !important;
+			margin-top:24px !important;
+			margin-left:auto !important;
+			margin-right:auto !important;
+			max-width:780px;
+		}
+		.flex-control-nav{
+			bottom: -40px !important;
 		}
 		li img{
 /*			width:640px;
 			height:454px;*/
 		}
+		.flex-control-nav.flex-control-paging li a{
+			padding:13px;
+			text-indent: 0px !important;
+			background: transparent !important;
+			box-shadow: 0px 0px 0px !important;
+		}
+		.flex-control-nav.flex-control-paging li a.flex-active{
+			opacity:.3;
+		}
 
-		.flex-control-nav.flex-control-paging{
-			display:none;
+		.flex-control-nav.flex-control-paging li{
+			margin:0 !important;
 		}
 
 		@media screen and (max-width: 400px) {
@@ -90,6 +100,25 @@
 				height:76%;
 			}
 		}
+		h3{
+			text-align:center;
+			margin-top:38px;
+			margin-bottom:5px;
+		}
+
+		.pics{
+			max-width:780px;
+			margin:0 auto;
+			padding-top:24px;
+		}
+
+		.pics img.one{
+			width:56%;
+		}
+		.pics img.two{
+			width:41.4%;
+			float:right;
+		}
 
 	</style>
 
@@ -100,28 +129,14 @@
 </head>
 <body>
 	<div class="main">
-		<h1>Westwood Apartments</h1>
-		<div class="flexslider">
-			<ul class="slides">
-				<li><img src="img/1.jpg" /></li>
-				<li><img src="img/2.jpg" /></li>
-				<li><img src="img/3.jpg" /></li>
-				<li><img src="img/4.jpg" /></li>
-				<li><img src="img/5.jpg" /></li>
-				<li><img src="img/6.jpg" /></li>
-				<li><img src="img/7.jpg" /></li>
-				<li><img src="img/8.jpg" /></li>
-			</ul>
+		<h1><a href="https://www.google.com/maps/place/612+Kelton+Ave/" target="_blank">614 Kelton Ave.</a></h1>
+		<h3>Large studio 542 square ft. - good for 2 people with 1 bath and kitchen plus one garage parking space</h3>
+		<div class="pics">
+			<img class="one" src="img/614_3d.jpg" />
+			<img class="two" src="img/614_2d.png" />
 		</div>
 		<p class="contact">uclakelton@gmail.com<br>(310)235-2888</p>
-
- 		<h3>Apartments Available</h3>
- 		<p><a href="612.html">31 sq ft studio - 1 bath with kitchen plus one garage parking space</a></p>
- 		<p><a href="614.html">Large studio 542 square ft. - good for 2 people with 1 bath and kitchen plus one garage parking space</a></p>
-		<p><a href="616.html">2 bedroom 1 bath - with a large kitchen at 1,500 square ft.</a></p>
 	</div>
-	<iframe width="600" height="450" frameborder="0" style="border:0"
-src="https://www.google.com/maps/embed/v1/place?q=612+Kelton+Avenue,+Los+Angeles,+CA,+United+States&key=AIzaSyB0j0_U-HZAod9S01EfIe-6c6Blv3GXWjM"></iframe>
 <script>
 $(window).load(function() {
   $('.flexslider').flexslider({
