@@ -33,9 +33,9 @@ This repo exists as practice for developing a product from start to finish in a 
 
 ## License
 
-Westwood For Lease is [MIT licensed](./LICENSE) and is available for public use by any imaginary person who, for whatever ridiculous reason, ever wants to use this repo for their own work.
+Westwood For Lease is [MIT licensed](./LICENSE?raw=true) and is available for public use by any imaginary person who, for whatever ridiculous reason, ever wants to use this repo for their own work.
 
 ## Past Version Screenshots
 
 Version 1.0
-![ScreenShot](./screenshots/v1.png)
+![ScreenShot](./screenshots/v1_1.png)
