@@ -38,7 +38,6 @@
         var selected = $(this).siblings('.selected');
         selected.removeClass('selected');
         sliders[selected.data('opt')].stop();
-        console.log(sliders[selected.data('opt')]);
 
         $(this).addClass('selected');
         sliders[opt].start();
