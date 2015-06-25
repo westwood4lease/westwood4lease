@@ -38,4 +38,5 @@ Westwood For Lease is [MIT licensed](./LICENSE?raw=true) and is available for pu
 ## Past Version Screenshots
 
 **Version 1.0** (2014)
+
 ![ScreenShot](./screenshots/v1_1.png)
