@@ -180,12 +180,21 @@ header {
             margin-top: -100%;
             pointer-events: auto;
             position: relative;
+
+            @media(max-width:767px){
+                height: 400px;
+                margin-top: -400px;
+            }
         }
     }
 
     iframe {
         position: static;
         height: 100%;
+
+        @media(max-width:767px){
+            height: 400px;
+        }
     }
 
     @media(min-width:768px){
@@ -407,5 +416,86 @@ header {
 }
 
 .third-card {
+    margin-top: 20px;
     @extend .card;
+
+    h3 {
+        background: rgba(63,124,172,0.08);
+        margin: 0;
+        color: #4c4c4c;
+        font-family: 'bunt';
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: .9px;
+        margin: 0;
+        letter-spacing: .04em;
+        padding: 10px 0;
+
+        @media(max-width:767px){
+            font-size: 20px;
+        }
+        @media(min-width:768px){
+            font-size: 22px;
+            padding: 12px 0;
+        }
+        @media(min-width:992px){
+            font-size: 28px;
+            padding: 15px 0;
+        }
+    }
+
+    .images {
+        padding: 15px;
+
+        @media(max-width:767px){}
+        @media(min-width:768px){
+            padding: 20px 35px;
+        }
+
+        @media(min-width:992px){
+            padding: 25px 35px;
+        }
+
+        @media(min-width:1200px){
+            padding: 30px 55px;
+        }
+    }
+
+    .image-wrap {
+        padding: 10px;
+        @media(max-width:767px){}
+        @media(min-width:768px){
+
+        }
+
+        @media(min-width:992px){
+
+        }
+
+        @media(min-width:1200px){
+            padding: 15px;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+}
+
+.second-card, .third-card {
+    @media(max-width:767px){
+        margin-top: 10px
+    }
+}
+
+footer {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'bunt';
+    letter-spacing: .02em;
+    font-size: 12px;
+    margin-bottom: 6px;
+    color: #4c4c4c;
 }
