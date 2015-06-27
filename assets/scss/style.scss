@@ -17,6 +17,10 @@ header {
     width: 100%;
     top: 0;
 
+    .container {
+        position: relative;
+    }
+
     @media(min-width:768px){
         height: 86px;
     }
@@ -66,6 +70,11 @@ header {
         text-align: right;
         width: 200px;
         padding-top: 13px;
+
+        @media(max-width:767px){
+            position: absolute;
+            right: 24px;
+        }
 
         @media(min-width:768px){
             padding-top: 17px;

@@ -9,7 +9,7 @@ Westwood For Lease is the online website for a few apartment home offerings in W
 
 ## Style Developement
 
-The [SASS](http://sass-lang.com/) structuring is set up separate from the Jekyll's built-in SASS compiling. So to develop styles for the site, navigate to the assets directory in Terminal and run (make sure [Compass](http://compass-style.org/) is installed:
+The [SASS](http://sass-lang.com/) structuring is set up separate from the Jekyll's built-in SASS compiling. So to develop styles for the site, navigate to the root directory of the project in Terminal and run (make sure [Compass](http://compass-style.org/) is installed:
 
 ```
 compass watch
