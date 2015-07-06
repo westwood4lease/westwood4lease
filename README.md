@@ -1,6 +1,6 @@
 # [Westwood For Lease](http://westwood4lease.com/)
 
-Westwood For Lease is the online website for a few apartment home offerings in Westwood, CA. The site is organized as a Jekyll installation even though it is a single page website in order to take advantage of the great free hosting solution offered by Github Pages. A Jekyll Fluid tag is needed to render the current year.
+Westwood For Lease is the online website for a few apartment home offerings in Westwood, CA. The site is organized as a Jekyll installation even though it is a single page website in order to take advantage of the great free hosting solution offered by Github Pages, and because Jekyll Fluid tag is needed to render the current year.
 
 
 * **Media Rich:** Multiple image galleries of different layouts are included in the site, allowing visitors to have an accurate and attractive representation of the property. The embedded map inserted at the top of the page elucidates to the visitor the exact location of the apartments offered on Kelton Ave.
