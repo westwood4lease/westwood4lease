@@ -9,7 +9,7 @@ Westwood For Lease is the online website for a few apartment home offerings in W
 
 ## Style Developement
 
-The [SASS](http://sass-lang.com/) structuring is set up separate from the Jekyll's built-in SASS compiling. So to develop styles for the site, navigate to the root directory of the project in Terminal and run (make sure [Compass](http://compass-style.org/) is installed:
+The [SASS](http://sass-lang.com/) structuring is set up separate from the Jekyll's built-in SASS compiling. So to develop styles for the site, navigate to the root directory of the project in Terminal and run ([Compass](http://compass-style.org/) must be installed):
 
 ```
 compass watch
@@ -29,13 +29,18 @@ And change the label text as needed. By toggling these lines of HTML on and off,
 
 ## Repo Notes
 
-This repo exists as practice for developing a product from start to finish in a professional manner without cutting any corners from the HTML semantics, to the CSS syntax, to the file structure, to the repo documentation. The specs designs (Sketch 3 file) are also included in the repo for cohesiveness.
+This repo exists as practice for developing a product from start to finish in a professional manner without cutting any corners from the HTML semantics, to the CSS syntax, to the file structure, to the repo documentation. The specs designs (Sketch 3 file) are also included in the repo for development clarity.
 
 ## License
 
 Westwood For Lease is [MIT licensed](./LICENSE?raw=true) and is available for public use by any imaginary person who, for whatever ridiculous reason, ever wants to use this repo for their own work.
 
-## Past Version Screenshots
+## Version Screenshots
+
+**Version 2.0** *Current* (2015)
+
+![ScreenShot](./screenshots/v2_1.png)
+![ScreenShot](./screenshots/v2_2.png)
 
 **Version 1.0** (2014)
 
