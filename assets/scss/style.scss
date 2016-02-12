@@ -369,6 +369,13 @@ header {
             opacity: 1;
         }
 
+        &.slide-614, &.slide-616 {
+
+            .right-side p {
+                font-size: 16px;
+            }
+        }
+
         .right-side {
             position: relative;
             height: 100%;

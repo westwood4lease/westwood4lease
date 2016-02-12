@@ -4,7 +4,7 @@
         'selector': '#slider-612',
         'effect': 'slide',
         'transitionDuration': 600,
-        'interval': 5000
+        'interval': 2000
     });
     slider612.start();
 
@@ -12,14 +12,14 @@
         'selector': '#slider-614',
         'effect': 'slide',
         'transitionDuration': 600,
-        'interval': 5000
+        'interval': 2000
     });
 
     var slider616 = new IdealImageSlider.Slider({
         'selector': '#slider-616',
         'effect': 'slide',
         'transitionDuration': 600,
-        'interval': 5000
+        'interval': 2000
     });
 
     var sliders = {
