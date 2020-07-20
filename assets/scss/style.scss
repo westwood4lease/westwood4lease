@@ -431,6 +431,27 @@ header {
     }
 }
 
+.parking-card {
+    p {
+
+        @media(min-width:768px){
+            font-size: 15px;
+            padding: 0px 13px 0px;
+            line-height: 1.68;
+        }
+        @media(min-width:992px){
+            font-size: 17px;
+            padding: 4px 15px 0px;
+            line-height: 1.68;
+        }
+        @media(min-width:1200px){
+            font-size: 18px;
+            padding: 9px 21px 0px;
+            line-height: 1.68;
+        }
+    }
+}
+
 .third-card {
     margin-top: 20px;
     @extend .card;
