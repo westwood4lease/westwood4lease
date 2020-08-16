@@ -348,6 +348,10 @@ header {
 
         @media(max-width:767px){
             height: 750px;
+
+            @media(max-width:500px){
+                height: 900px;
+            }
         }
     }
 
@@ -384,6 +388,10 @@ header {
 
             @media(max-width:767px){
                 height: 350px;
+
+                @media(max-width:500px){
+                    height: 500px;
+                }
             }
 
             p {
